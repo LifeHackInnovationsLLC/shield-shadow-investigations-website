@@ -1,5 +1,5 @@
 {
-  "name": "shield-shadows-investigations-website",
+  "name": "shield-shadow-investigations-website",
   "version": "0.1.0",
   "description": "Website for shieldandshadowsinvestigations.com",
   "scripts": {
@@ -8,7 +8,7 @@
     "status": "./launch.sh status",
     "launch": "./launch.sh start"
   },
-  "author": "Shield & Shadows Investigations",
+  "author": "Shield & Shadow Investigations",
   "license": "UNLICENSED",
   "private": true
 }

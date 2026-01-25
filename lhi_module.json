@@ -1,12 +1,12 @@
 {
-  "name": "shield-shadows-investigations-website",
+  "name": "shield-shadow-investigations-website",
   "version": "0.1.0",
   "description": "Website for shieldandshadowsinvestigations.com",
   "formFactor": "lhi_git_projects",
   "type": "website",
   "status": "placeholder",
   "domain": "shieldandshadowsinvestigations.com",
-  "owner": "Shield & Shadows Investigations",
+  "owner": "Shield & Shadow Investigations",
   "portable": true,
   "hosting": {
     "provider": "digitalocean",
