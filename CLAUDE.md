@@ -35,5 +35,17 @@ This website is designed to be **completely portable and self-contained**. It mu
 
 ## Current State
 
-- **Phase**: Placeholder/Coming Soon page
+- **Phase**: Research Complete, MVP Development Ready
 - **Next steps**: Build out full site with services, contact, about pages
+
+## Documentation Structure
+
+| File | Purpose |
+|------|---------|
+| [AGENT_BRIEF.md](AGENT_BRIEF.md) | Quick reference for AI agents |
+| [PLANNING.md](PLANNING.md) | Strategic vision and architecture |
+| [TASK.md](TASK.md) | Detailed task tracking |
+| [research/](research/) | Competitor analysis, best practices, contact systems |
+| [references/](references/) | Business card and branding assets |
+
+**Start Here:** Read [AGENT_BRIEF.md](AGENT_BRIEF.md) for quick orientation, then [PLANNING.md](PLANNING.md) for full context.
