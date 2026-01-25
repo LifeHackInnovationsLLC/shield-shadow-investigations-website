@@ -1,0 +1,23 @@
+{
+  "name": "shield-shadows-investigations-website",
+  "version": "0.1.0",
+  "description": "Website for shieldandshadowsinvestigations.com",
+  "formFactor": "lhi_git_projects",
+  "type": "website",
+  "status": "placeholder",
+  "domain": "shieldandshadowsinvestigations.com",
+  "owner": "Shield & Shadows Investigations",
+  "portable": true,
+  "hosting": {
+    "provider": "digitalocean",
+    "dropletId": "535337615",
+    "ip": "134.199.198.58"
+  },
+  "nginx": {
+    "configPath": "/etc/nginx/sites-available/shieldandshadowsinvestigations.com",
+    "webRoot": "/var/www/shieldandshadowsinvestigations"
+  },
+  "ssl": {
+    "provider": "letsencrypt"
+  }
+}
