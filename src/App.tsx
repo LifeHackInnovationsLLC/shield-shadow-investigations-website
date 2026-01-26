@@ -15,7 +15,7 @@ import EffectVideoBackground from './components/smoke-effects/EffectVideoBackgro
 
 function App() {
   const [searchParams] = useSearchParams()
-  const useVideoBackground = searchParams.get('video') === '1'
+  const useVideoBackground = searchParams.get('video') !== '0'
 
   return (
     <div className={`${useVideoBackground ? 'video-bg-mode' : 'smoke-viewport-edges bg-primary-900'} min-h-screen text-white flex flex-col`}>

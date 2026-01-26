@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 export default function EffectVideoBackground() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -9,6 +9,7 @@ export default function EffectVideoBackground() {
     size: number; opacity: number; rotation: number; rotSpeed: number;
   }>>([])
   const lastSpawnRef = useRef(0)
+  const [isPortrait, setIsPortrait] = useState(window.innerHeight > window.innerWidth)
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -19,6 +20,7 @@ export default function EffectVideoBackground() {
     const resize = () => {
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
+      setIsPortrait(window.innerHeight > window.innerWidth)
     }
     resize()
     window.addEventListener('resize', resize)
@@ -110,6 +112,7 @@ export default function EffectVideoBackground() {
     <>
       {/* Video background layer */}
       <video
+        key={isPortrait ? 'portrait' : 'landscape'}
         ref={videoRef}
         autoPlay
         loop
@@ -126,7 +129,7 @@ export default function EffectVideoBackground() {
           pointerEvents: 'none',
         }}
       >
-        <source src="/smoke-video.mp4" type="video/mp4" />
+        <source src={isPortrait ? '/smoke-video-portrait-pingpong.mp4' : '/smoke-video-pingpong.mp4'} type="video/mp4" />
       </video>
 
       {/* Canvas for interactive smoke trails */}
