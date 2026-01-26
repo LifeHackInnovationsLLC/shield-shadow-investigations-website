@@ -501,3 +501,58 @@
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 30%, black 70%, transparent 100%);
   pointer-events: none;
 }
+
+/* ============================================
+   VIDEO BACKGROUND MODE
+   When ?video=1 is active, make backgrounds transparent
+   with frosted glass effects for readability
+   ============================================ */
+
+/* Base transparent backgrounds */
+.video-bg-mode,
+.video-bg-mode .bg-primary-900,
+.video-bg-mode .bg-primary-900\/95,
+.video-bg-mode section {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Header - semi-transparent dark with blur for readability */
+.video-bg-mode header {
+  background-color: rgba(10, 10, 10, 0.7) !important;
+  background-image: none !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Call Now button and similar outline buttons - frosted dark tint */
+.video-bg-mode .btn-primary,
+.video-bg-mode button[class*="bg-white"],
+.video-bg-mode a[class*="bg-white"] {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.video-bg-mode .btn-outline,
+.video-bg-mode button[class*="border-white"],
+.video-bg-mode a[class*="border-white"] {
+  background-color: rgba(10, 10, 10, 0.5) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Service cards - frosted glass effect */
+.video-bg-mode [class*="card"],
+.video-bg-mode .bg-primary-800,
+.video-bg-mode [class*="bg-primary-800"] {
+  background-color: rgba(15, 15, 20, 0.6) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer - semi-transparent for consistency */
+.video-bg-mode footer {
+  background-color: rgba(5, 5, 5, 0.8) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
