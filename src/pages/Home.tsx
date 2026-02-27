@@ -96,54 +96,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Expertise Section */}
-      <section className="py-20 bg-primary-900 border-y border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-heading">Expertise</h2>
-          <p className="text-center text-accent-silver text-lg tracking-wide mb-12">
-            Licensed. Court-Tested. Field-Proven.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Multi-State Licensed Authority',
-                description: 'Licensed Adjuster in New York and Florida with authority to investigate and settle claims across jurisdictions. Notary Public in both states.',
-              },
-              {
-                title: 'Complex Claims & Litigation Support',
-                description: 'Represented insurance carriers in civil, criminal, and federal cases. Worked directly with attorneys on high-value and high-profile matters.',
-              },
-              {
-                title: 'Field Investigations & Scene Reconstruction',
-                description: 'Conducted site inspections for auto, property, liability, and construction-related losses. Located and interviewed witnesses. Secured official records from court systems and municipal databases.',
-              },
-              {
-                title: 'Fraud & Background Intelligence',
-                description: 'Investigated potential fraud, staged losses, exaggerated injury claims. Conducted background research, record analysis, and investigative documentation.',
-              },
-              {
-                title: 'Construction & OSHA Compliance',
-                description: 'Performed on-site construction investigations. Coordinated with OSHA to evaluate safety compliance and code adherence.',
-              },
-              {
-                title: 'Strategic Carrier Representation',
-                description: 'Acted as representative of insurance carriers during negotiations and settlement discussions. Delivered formal investigative reports with evidence-backed findings and recommendations.',
-              },
-            ].map((item) => (
-              <div key={item.title} className="bg-primary-800 p-6 border border-white/10">
-                <h3 className="font-display text-lg tracking-wide mb-3 text-accent-gold">
-                  {item.title}
-                </h3>
-                <p className="text-gray-400 text-sm leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Trust Signals / Why Choose Us */}
       <section className="py-20 bg-primary-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -160,8 +112,8 @@ export default function Home() {
                 description: 'Work directly with the owner. No corporate bureaucracy, just direct communication and accountability.',
               },
               {
-                title: 'Court-Ready Documentation',
-                description: 'Every investigation documented to professional standards with evidence-backed findings suitable for legal proceedings.',
+                title: 'Local Expertise',
+                description: 'Deep knowledge of South Florida. We know the area, the courts, and how to get results.',
               },
               {
                 title: 'Fast Response',

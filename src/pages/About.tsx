@@ -34,6 +34,7 @@ export default function About() {
                 Owner & Lead Investigator
               </p>
 
+              {/* PLACEHOLDER: Replace with actual bio from Natasha */}
               <div className="space-y-4 text-gray-300">
                 <p>
                   With extensive experience in the insurance investigation industry,
@@ -43,20 +44,9 @@ export default function About() {
                 </p>
 
                 <p>
-                  As an Insurance Claim Investigator in New York, Natasha developed deep expertise in
-                  handling auto, property, and complex liability claims. Her responsibilities included
-                  locating and interviewing witnesses, conducting thorough on-site inspections and scene
-                  investigations, and procuring critical court documents and records from city databases.
-                  She regularly worked on construction sites in coordination with OSHA to ensure compliance
-                  with safety standards and codes, bringing a unique combination of investigative skill and
-                  regulatory knowledge to every case.
-                </p>
-
-                <p>
-                  Natasha's investigative acumen extends to fraud assessment and background checks, working
-                  collaboratively with law enforcement and legal teams on civil, criminal, and federal cases.
-                  She has represented insurance carriers in high-value, high-profile claims, working closely
-                  with attorneys to build comprehensive case files and deliver expert testimony when required.
+                  [PLACEHOLDER: Add 2-3 paragraphs about Natasha's background, experience,
+                  and what led her to start Shield and Shadow Investigations. Include any
+                  relevant education, certifications, or career history.]
                 </p>
 
                 <p>
@@ -69,14 +59,13 @@ export default function About() {
 
               {/* Credentials */}
               <div className="mt-8 pt-8 border-t border-white/10">
-                <h3 className="font-display text-lg tracking-wide mb-4">Credentials & Licenses</h3>
+                <h3 className="font-display text-lg tracking-wide mb-4">Credentials</h3>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-gray-400">
+                  {/* PLACEHOLDER: Add actual credentials */}
                   <li>• Licensed Private Investigator - Florida</li>
-                  <li>• Adjuster License - New York</li>
-                  <li>• Adjuster License - Florida</li>
-                  <li>• Notary Public - New York</li>
-                  <li>• Notary Public - Florida</li>
+                  <li>• Commissioned Notary Public</li>
                   <li>• Certified Process Server</li>
+                  <li>• [Additional certifications/training]</li>
                 </ul>
               </div>
             </div>
